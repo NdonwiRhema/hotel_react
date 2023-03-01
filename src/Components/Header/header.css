@@ -1,0 +1,52 @@
+.header{
+    position: relative;
+    z-index: -1;
+}
+.ImageHolder img{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+.header .headerOverlay{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: 0.6;
+}
+.header .HeaderContent{
+    position: absolute;
+    top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   color: #fff;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ;
+}
+.HeaderContent h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.HeaderContent h1 span{
+    color: var(--main);
+    font-size: 70px;
+    font-weight: 700;
+}
+/* Custom Secton */
+.custom{
+    margin-top: -80px;
+    z-index: 100;
+}
+.custom .col-sm-4 .box{
+    overflow: hidden;
+}
+.custom .col-sm-4 .box img{
+   height: 250px;
+   width: 100%;
+   object-fit: cover;
+}
+.custom .col-sm-4 .box:hover img{
+    transform: scale(1.1);
+    cursor: pointer;
+ }

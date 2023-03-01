@@ -1,0 +1,39 @@
+.about{
+    margin: 150px;
+}
+.about .col-sm-5 img{
+    height: 75%;
+    width: 100%;
+    object-fit: cover;
+   
+}
+.about .col-sm-5 h6{
+    font-size: 40px;
+    font-weight: 800;
+    margin: 20px auto;
+   
+}
+.about .col-sm-5 h6 span{
+    color: var(--main);
+    font-size: 50px;
+    font-weight: 900;
+   
+}
+.about .col-sm-5 p{
+    margin: 10px auto;
+    font-size: 16px;
+    font-weight: 500;
+   
+}
+.about .second_rowabout{
+    background-color: black;
+    padding:20px;
+    margin-top: -150px;
+
+}
+.about .second_rowabout h6{
+   color: azure;
+   font-size: 60px;
+   text-align: center;
+    font-weight: 800;
+}
