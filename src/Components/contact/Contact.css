@@ -1,0 +1,35 @@
+.contact{
+    margin-bottom: 100px;
+}
+.contact .form-group{
+    margin-bottom: 12px;
+}
+.contact img{
+    height: 500px;
+    width:100%; 
+    object-fit: cover;
+}
+.contact .box{
+    overflow: hidden;
+}
+
+.contact .box:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.contact h6{
+    font-size: 40px;
+    font-weight: 600;
+    margin: 15px auto;
+
+}
+.contact p{
+        margin: 25px auto;
+
+}
+.contact h6 span{
+    font-size: 50px;
+    font-weight: 800;
+    color: var(--main);
+
+}

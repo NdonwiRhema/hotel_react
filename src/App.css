@@ -20,10 +20,14 @@
     background: var(--main) !important;
     color: #fff !important;
     transition: 0.5s;
+    box-shadow: #000 2px !important;
+    
 }
 .btn:hover{
     width: 260px;
     color: #000 !important;
+    font-weight: 600;
+    
 }
 
 html::-webkit-scrollbar{

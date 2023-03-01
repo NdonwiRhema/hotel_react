@@ -1,0 +1,11 @@
+footer{
+    background-color: var(--main);
+    padding: 20px;
+    text-align: center;
+
+}
+footer p{
+    color: aliceblue;
+    font-size: 20px;
+
+}

@@ -1,0 +1,36 @@
+.offer{
+    margin-bottom:200px;
+}
+.offer .content{
+text-align: center;
+margin: 80px auto;
+}
+.offer .content h6{
+    font-size: 60px;
+    font-weight: 800;
+    }
+.offer .content p{
+        font-size: 13px;
+        
+        }
+.offer .box{
+    overflow:hidden;
+    cursor: pointer;
+    background-color: #ccc;
+    box-shadow: 10px 10px 10px -10px rgba(0,0,0,0.8); 
+}
+.offer .box img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.offer .box:hover .boxContent{
+    transform: scale(1.05);
+}
+.offer .boxContent{
+    padding: 10px;
+}
+.offer .boxContent h6{
+  font-size: 20px;
+  font-weight: 600;
+}

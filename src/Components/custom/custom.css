@@ -1,0 +1,20 @@
+.custom-one{
+    padding :20px;
+    margin-bottom: 150px;
+    background-color: var(--main);
+}
+.custom-one .btn{
+    border:0.5px solid #fff !important;
+    font-weight: 600;
+    margin-top: 100px;
+    background-color: black !important;
+}
+.custom-one .btn:hover{
+    color: #fff !important;
+   
+}
+.custom-one h6{
+    font-size: 50px;
+    font-weight: 800;
+    color: #fff;
+}
